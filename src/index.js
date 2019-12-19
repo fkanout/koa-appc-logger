@@ -27,7 +27,7 @@ export const log = async (ctx, next) => {
       statusCode
     }
   };
-  console.info(JSON.stringify(requestLog));
+  console.log(JSON.stringify(requestLog));
 };
 export default () => {
   return async (ctx, next) => {
